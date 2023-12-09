@@ -3,7 +3,8 @@
   <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
     <!-- Left -->
     <div class="me-5 d-none d-lg-block">
-      <span>Get connected with us on social networks:</span>
+      <span>
+Conéctate con nosotras en las redes sociales:</span>
     </div>
     <!-- Left -->
 
@@ -21,12 +22,8 @@
       <a href="" class="me-4 text-reset">
         <i class="fab fa-instagram"></i>
       </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-linkedin"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-github"></i>
-      </a>
+ 
+    
     </div>
     <!-- Right -->
   </section>
@@ -41,11 +38,10 @@
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
           <!-- Content -->
           <h6 class="text-uppercase fw-bold mb-4">
-            <i class="fas fa-gem me-3"></i>Company name
+            <i class="fa-solid fa-screwdriver-wrench"></i> TOOLS STORE
           </h6>
           <p>
-            Here you can use rows and columns to organize your footer content. Lorem ipsum
-            dolor sit amet, consectetur adipisicing elit.
+          Descubre la excelencia en herramientas: resistencia y rendimiento inigualables. ¡Logra trabajos excepcionales con lo mejor del mercado!
           </p>
         </div>
         <!-- Grid column -->
@@ -54,19 +50,19 @@
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
           <!-- Links -->
           <h6 class="text-uppercase fw-bold mb-4">
-            Products
+            Sobre nostros
           </h6>
           <p>
-            <a href="#!" class="text-reset">Angular</a>
+            <a href="#!" class="text-reset">Objetivo</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">React</a>
+            <a href="#!" class="text-reset">Misión</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Vue</a>
+            <a href="#!" class="text-reset">visión</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Laravel</a>
+            <a href="#!" class="text-reset">Estrategias</a>
           </p>
         </div>
         <!-- Grid column -->
@@ -96,10 +92,10 @@
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
           <!-- Links -->
           <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p><i class="fas fa-home me-3"></i> Monteria, NY 10012, US</p>
           <p>
             <i class="fas fa-envelope me-3"></i>
-            info@example.com
+            info@herramienta.com
           </p>
           <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
           <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>

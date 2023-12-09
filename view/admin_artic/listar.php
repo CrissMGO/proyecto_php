@@ -86,9 +86,9 @@ require '../../controller/Articulos.php';
 
 
 
-                                    <button class="btn btn-ligh" type="submit" name="accion" value="editar"><i class="fa fa-pencil-square" aria-hidden="true" style="color:green;"></i></button>
+                                    <button class="btn btn-ligh" type="submit" name="accion" value="editar"><i class="fa fa-pencil-square" aria-hidden="true" style="color:green;">Editar</i></button>
 
-                                    <button class="btn btn-ligh" value="btneliminar" onclick="return confirmar('¿deseas eliminar el registro?');" type="submit" name="accion"><i class="fa fa-trash" aria-hidden="true" style="color: red;"></i>
+                                    <button class="btn btn-ligh" value="btneliminar" onclick="return confirmar('¿deseas eliminar el registro?');" type="submit" name="accion"><i class="fa fa-trash" aria-hidden="true" style="color: red;">Eliminar</i>
                                     </button>
 
                                 </form>
