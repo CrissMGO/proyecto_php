@@ -1,4 +1,4 @@
-<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+<footer class="text-center foo text-lg-start bg-body-tertiary text-muted">
   <!-- Section: Social media -->
   <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
     <!-- Left -->
@@ -109,12 +109,5 @@
       <!-- Grid row -->
     </div>
   </section>
-  <!-- Section: Links  -->
 
-  <!-- Copyright -->
-  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-    © 2021 Copyright:
-    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-  </div>
-  <!-- Copyright -->
 </footer>

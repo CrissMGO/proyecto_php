@@ -86,9 +86,9 @@ require '../../controller/Articulos.php';
 
 
 
-                                    <button class="btn btn-ligh" type="submit" name="accion" value="editar"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
+                                    <button class="btn btn-ligh" type="submit" name="accion" value="editar"><i class="fa fa-pencil-square" aria-hidden="true" style="color:green;"></i></button>
 
-                                    <button class="btn btn-ligh" value="btneliminar" onclick="return confirmar('¿deseas eliminar el registro?');" type="submit" name="accion"><i class="fa fa-trash" aria-hidden="true"></i>
+                                    <button class="btn btn-ligh" value="btneliminar" onclick="return confirmar('¿deseas eliminar el registro?');" type="submit" name="accion"><i class="fa fa-trash" aria-hidden="true" style="color: red;"></i>
                                     </button>
 
                                 </form>
@@ -111,7 +111,7 @@ require '../../controller/Articulos.php';
                     <form action="" method="post" enctype="multipart/form-data">
                         <div class="modal-header">
                             <h1 class="modal-title fs-5" id="exampleModalLabel">EDITAR EL ARTICULO</h1>
-                            <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
 
@@ -129,7 +129,7 @@ require '../../controller/Articulos.php';
                                     <?PHP if ($txtfoto != "") { ?>
 
                                         <br>
-                                        <img class="img-thumbnail rounded mx-auto d-block" width="00px" src="../../assets/img/<?PHP echo $txtfoto; ?>">
+                                        <img class="img-thumbnail rounded mx-auto d-block" width="130px" src="../../assets/img/<?PHP echo $txtfoto; ?>">
                                         <br>
                                         <br>
 
