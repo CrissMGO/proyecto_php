@@ -49,11 +49,12 @@ require '../../controller/Articulos.php';
 
             <div class="contenedor-items">
                 <?php foreach ($listaempleados as $articulos) { ?>
+
                     <div class="item " style="width: 250px !important;">
 
-                        <h5 class="titulo-item"><?php echo $articulos['tipo']; ?></h5>
-                        <img class="img-thumbnail" style="width: 100%; height: 200px; object-fit: cover;" src="../../assets/img/<?php echo $articulos['foto']; ?>">
-                        <img src="img/boxengasse.png" alt="" class="img-item">
+                        <h5 class="titulo-item"><?php echo $articulos['tipo'] . " ᴿᴱᶠ", $articulos['id']; ?></h5>
+                        <img class="img-item" style="width: 100%; height: 200px; object-fit: cover;" src="../../assets/img/<?php echo $articulos['foto']; ?>">
+
                         <p class="card-text"><?php echo $articulos['descripcion']; ?></p>
                         <span class="precio-item"><?php echo "$" . $articulos['precio']; ?></span>
                         <button class="boton-item">Agregar al Carrito</button>
@@ -67,7 +68,6 @@ require '../../controller/Articulos.php';
                 </div>
 
                 <div class="carrito-items">
-
                 </div>
                 <div class="carrito-total">
                     <div class="fila">
@@ -87,7 +87,7 @@ require '../../controller/Articulos.php';
 
         ?>
 
-        
+
 
 
 

@@ -1,7 +1,13 @@
 <?php
 
 require '../../controller/Articulos.php';
+session_start();
+$correo = $_SESSION['correo'];
 
+if (!isset($correo)) {
+    header('location:../login/login.php');
+    exit;
+}
 ?>
 
 
@@ -22,10 +28,11 @@ require '../../controller/Articulos.php';
 
 
 </head>
+
 <body>
-<?php
+    <?php
     include '../components/navbar.php';
-    
+
     ?>
 
     <br><br>
@@ -41,21 +48,21 @@ require '../../controller/Articulos.php';
 
 
                     <form action='' method='post' enctype='multipart/form-data'>
-                    <div class="row">
+                        <div class="row">
 
 
-                        <div class="form_group col-md-12">
+                            <div class="form_group col-md-12">
 
-                            <label for="txtfoto" class="form-label">Foto</label>
+                                <label for="txtfoto" class="form-label">Foto</label>
 
-                            <input type="file" class="form-control" accept="image/*" name="txtfoto" value="" id="txtfoto" require>
+                                <input type="file" class="form-control" accept="image/*" name="txtfoto" value="" id="txtfoto" require>
 
 
-                        </div>
+                            </div>
 
-                        <br>
+                            <br>
 
-                       
+
                             <div class="form_group col-md-6">
                                 <label for="tipo" class="form-label">Titulo</label>
                                 <input type="text" class="form-control" value="" id="tipo" name="tipo" required>
@@ -78,19 +85,19 @@ require '../../controller/Articulos.php';
                             </div>
 
 
-                    
-                        <br>
+
+                            <br>
 
 
 
-                        <div class="form_group col-md-12">
+                            <div class="form_group col-md-12">
 
-                            <labelfor="" class="form-label"> Descripcion</label>
-                                <input type="text" class="form-control" name="descripcion" value="" id="descripcion" require="">
+                                <labelfor="" class="form-label"> Descripcion</label>
+                                    <input type="text" class="form-control" name="descripcion" value="" id="descripcion" require="">
+                            </div>
+                            <br>
+
                         </div>
-                        <br>
-
-                    </div>
 
 
 

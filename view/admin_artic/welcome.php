@@ -2,6 +2,15 @@
 
 require '../../controller/Articulos.php';
 
+session_start();
+$correo = $_SESSION['correo'];
+
+if (!isset($correo)) {
+  header('location:../login/login.php');
+  exit;
+}
+  # code...
+
 ?>
 
 
@@ -31,6 +40,7 @@ require '../../controller/Articulos.php';
     ?>
 
     <br><br><br>
+    
     <div class="card w-50">
           <div class="card-header">
             <img src="../../assets/img/herramientas.jpg" alt="Tu Tienda Online" class="card-img">
@@ -63,3 +73,4 @@ require '../../controller/Articulos.php';
 </body>
 
 </html>
+

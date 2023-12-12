@@ -1,0 +1,9 @@
+
+
+
+
+
+
+admin
+
+INSERT INTO `usuarios` (`id`, `correo`, `clave`) VALUES (NULL, 'gomez@gmail.com', 'qwerty');

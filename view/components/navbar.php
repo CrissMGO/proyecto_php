@@ -18,26 +18,26 @@
 
             <div class="offcanvas-body">
                 <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
-                    <li class="nav-item">
-                        <a href="../../view/admin_artic/registro.php" id="enlaceRegistro" class="list-group-item list-group-item-action text-light load-content" style="background-color:#2E86C1">
+                    <li class="nav-item num2">
+                        <a href="../../view/admin_artic/registro.php" id="enlaceRegistro" class="a list-group-item list-group-item-action text-light load-content" style="background-color:#2E86C1">
                             <i class="fa fa-plus" aria-hidden="true"></i> Registrar articulo
                         </a>
                     </li>
                     <br>
-                    <li class="nav-item">
+                    <li class="nav-item num2">
                         <a href="../../view/admin_artic/listar.php" id="enlaceLista" class="list-group-item list-group-item-action text-light load-content" style="background-color: #2E86C1;">
                             <i class="fa fa-list-alt" aria-hidden="true"></i> Lista de articulos
                         </a>
                     </li>
                     <br>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item num2 dropdown">
                         <a href="#" class="list-group-item list-group-item-action text-light" style="background-color: #2E86C1;">
                             <i class="fa fa-shopping-cart" aria-hidden="true"></i> Buy Now!
                         </a>
                     </li>
                     <br>
-                    <li class="nav-item dropdown">
-                        <a href="../login/index.php" aria-expanded="false" class="conten list-group-item list-group-item-action text-light" style="background-color: #2E86C1;">
+                    <li class="nav-item num2 dropdown">
+                        <a href="../login/salir.php" aria-expanded="false" class="conten list-group-item list-group-item-action text-light" style="background-color: #2E86C1;">
                             <i class="fa fa-sign-out" aria-hidden="true"></i> Sign out
                         </a>
                     </li>
