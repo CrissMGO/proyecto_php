@@ -30,7 +30,7 @@ require '../../controller/Articulos.php';
 
         <div class="encabezado-img">
             <h1>TOOLS STORE</h1>
-            <p>Descubre las herramientas perfectas para potenciar tu trabajo</p>
+            
         </div>
 
         <br>
@@ -42,6 +42,7 @@ require '../../controller/Articulos.php';
         <h2>
             <center>NUESTROS PRODUCTOS</center>
         </h2>
+   
         <br>
 
 

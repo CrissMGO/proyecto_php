@@ -5,8 +5,8 @@
             <span class="navbar-toggler-icon" style="font-size: 16px;"></span>
         </button>
         <h3 class="h3 a">TOOLS STORE</h3>
-        <a class="navbar-brand a" href="../../view/admin_artic/welcome.php">Home</a>
-    
+        <a href="../../view/admin_artic/welcome.php" style="margin-left:30px; background-color:white; color:black!important;" class="btn btn-secondary " role="button" aria-disabled="true">Home</a>
+       
 
         <div class="offcanvas offcanvas-start " style="background-color: #2E86C1;  width: 300px; " tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
             <div class="offcanvas-header">
